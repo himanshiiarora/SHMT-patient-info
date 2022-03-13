@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAFAFA;
+}
+
+body .top_bar {
+  height: 6em;
+  background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 3em;
+}
+
+body .top_bar a {
+  background-color: #fcddec;
+  display: inline-block;
+  width: 8em;
+  height: 2em;
+}
+
+body .greyy {
+  color: #7B7A79;
+  font-size: 0.65em;
+  margin-top: 0.3em;
+}
+
+body .content_patient_info {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5em;
+      grid-template-areas: 'navbar_in gen gen gen gen latest latest';
+}
+
+body .content_patient_info h3 {
+  font-size: 15px;
+}
+
+body .content_patient_info h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+body .content_patient_info h1 {
+  font-size: 1.4em;
+}
+
+body .content_patient_info #navbar_in {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: navbar_in;
+  background-color: #ffffff;
+  width: 3.6em;
+  height: 35em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .content_patient_info #navbar_in img {
+  margin: 1em;
+  width: 1.4em;
+}
+
+body .content_patient_info #navbar_in .se_1, body .content_patient_info #navbar_in .se_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .content_patient_info #gen {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: gen;
+}
+
+body .content_patient_info #gen .part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 40em;
+}
+
+body .content_patient_info #gen .part1 .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-right: 2px solid black;
+  padding-right: 1.5em;
+  margin-top: 1.5em;
+}
+
+body .content_patient_info #gen .part1 .name .symbol {
+  background-color: #E1E1E1;
+  width: 4em;
+  height: 4em;
+  border-radius: 3em;
+  padding: 2px;
+  text-align: center;
+  margin: 0.5em;
+}
+
+body .content_patient_info #gen .part1 .but {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content_patient_info #gen .part1 .but .button_enter {
+  width: 14em;
+  height: 2.5em;
+  border: 0px;
+  border-radius: 1.5em;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#088DFF), to(#066AC3));
+  background: linear-gradient(180deg, #088DFF 0%, #066AC3 100%);
+  -webkit-box-shadow: 0px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
+          box-shadow: 0px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
+  font-size: 0.85em;
+}
+
+body .content_patient_info #gen .inform .general {
+  margin-top: 3em;
+}
+
+body .content_patient_info #gen .inform .general .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2em;
+  padding-right: 6em;
+  padding-left: 0em;
+  width: 40em;
+}
+
+body .content_patient_info #gen .inform .general .links a {
+  padding: 0.6em;
+  color: #000000;
+  text-decoration: none;
+  width: 6em;
+  text-align: center;
+  font-weight: bold;
+}
+
+body .content_patient_info #gen .inform .general .links a:hover, body .content_patient_info #gen .inform .general .links a:active {
+  background-color: #E1E1E1;
+  border-radius: 0.5em;
+}
+
+body .content_patient_info #gen .inform .contact {
+  margin-top: 4em;
+}
+
+body .content_patient_info #gen .inform .contact .contact_content {
+  width: 25em;
+}
+
+body .content_patient_info #gen .inform .contact .contact_content .cc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .content_patient_info #gen .inform .content_vital_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .content_patient_info #gen .inform .content_vital_info .vit-box {
+  background-color: #FFFFFF;
+  width: 21em;
+  height: 14em;
+  border-radius: 1.25em;
+  padding: 0.5em;
+  margin: 0px;
+  -webkit-box-shadow: 0 0 5px gray;
+          box-shadow: 0 0 5px gray;
+}
+
+body .content_patient_info #gen .inform .content_vital_info .pre-box {
+  width: 16em;
+  height: 21em;
+  border-radius: 1.25em;
+  padding: 0.5em;
+  margin: 0px;
+  -webkit-box-shadow: 0 0 5px gray;
+          box-shadow: 0 0 5px gray;
+  background-color: #FFFFFF;
+}
+
+body .content_patient_info #gen .inform .content_vital_info .pre-box .list {
+  list-style-type: disc;
+}
+
+body .content_patient_info #latest {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: latest;
+}
+
+body .content_patient_info #latest .diag-box {
+  background-color: #ffffff;
+  width: 19em;
+  height: 11em;
+  border-radius: 1.25em;
+  padding: 0.5em;
+  margin: 0px;
+  -webkit-box-shadow: 0 0 5px gray;
+          box-shadow: 0 0 5px gray;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 580px) {
+  body .content_patient_info {
+        grid-template-areas: 'navbar_in navbar_in gen gen gen gen gen'  'navbar_in navbar_in latest latest latest latest latest';
+    grid-gap: 0em;
+  }
+  body .content_patient_info #navbar_in {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: navbar_in;
+    height: 100%;
+    width: 3em;
+  }
+  body .content_patient_info #navbar_in img {
+    margin-bottom: 3em;
+  }
+  body .content_patient_info #gen {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 5;
+    grid-area: gen;
+  }
+  body .content_patient_info #gen .part1 {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 20em;
+  }
+  body .content_patient_info #gen .part1 .name {
+    border-right: 0px;
+  }
+  body .content_patient_info #gen .inform .general {
+    margin-top: 2em;
+  }
+  body .content_patient_info #gen .inform .general .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px;
+    width: 20em;
+  }
+  body .content_patient_info #gen .inform .contact {
+    margin-top: 2em;
+  }
+  body .content_patient_info #gen .inform .contact .contact_content {
+    width: 19em;
+  }
+  body .content_patient_info #gen .inform .contact .contact_content .cc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .content_patient_info #gen .inform .content_vital_info .vit-box {
+    width: 18em;
+  }
+  body .content_patient_info #gen .inform .content_vital_info .pre-box {
+    width: 18em;
+  }
+  body .content_patient_info #latest {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 5;
+    grid-area: latest;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  body .content_patient_info #latest .diag-box {
+    height: 16em;
+  }
+  body .top_bar {
+    padding-right: 0.5em;
+    height: 3.5em;
+  }
+  body .top_bar a {
+    width: 5em;
+    height: 1.2em;
+  }
+  body h1 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=info.css.map */
