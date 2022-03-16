@@ -102,6 +102,19 @@ body{
                         background: linear-gradient(180deg, #088DFF 0%, #066AC3 100%);
                         box-shadow: 4.24544e-16px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
                         font-size: 0.85em;
+                        .member_add{
+                            display: none;
+                            background-color: #ffffff;
+                            color: #000000;
+                            padding: 0.5em;
+                            list-style-type: none;
+                        }
+                        
+                    }
+                    .button_enter:hover{
+                        .member_add{
+                            display: list-item;
+                        }
                     }
                 }
             }

@@ -194,6 +194,18 @@ body .content_patient_info #gen .part1 .but .button_enter {
   font-size: 0.85em;
 }
 
+body .content_patient_info #gen .part1 .but .button_enter .member_add {
+  display: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5em;
+  list-style-type: none;
+}
+
+body .content_patient_info #gen .part1 .but .button_enter:hover .member_add {
+  display: list-item;
+}
+
 body .content_patient_info #gen .inform .general {
   margin-top: 3em;
 }
